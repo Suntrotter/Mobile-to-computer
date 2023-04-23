@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Ballet school</title>
-    <link rel="stylesheet" href="./css/style.css" />
+    <link rel="stylesheet" href="./css/main.css" />
   </head>
   <body>
     <div id="app">
@@ -12,11 +12,16 @@
         <div class="header">
           <div class="logo upper">Savana</div>
 
-          <div class="burger-menu">
-            <div class="line"></div>
-            <div class="line"></div>
-            <div class="line"></div>
-          </div>
+          <div class="dropdown">
+            <nav>&#9776;</nav>
+              <div class="dropdown-content">
+                <a href="#">About</a>
+                <a href="#">Directions</a>
+                <a href="#">Trainers</a>
+                <a href="#">Groups</a>
+                <a href="#">Contact&nbsp;us</a>
+              </div>
+           </div>
         </div>
 
         <div class="preview__title">Ballet school</div>
@@ -27,12 +32,12 @@
 
       <div class="player">
         <img
-          src="./public/images/backgrounds/background-2.png"
+          src="https://github.com/katas8n/ballet-school/blob/master/public/images/backgrounds/background-2.png?raw=true"
           alt="There is nothing here yet"
           class="player__bg"
         />
         <img
-          src="./public/icons/play.png"
+          src="https://github.com/katas8n/ballet-school/blob/master/public/icons/play.png?raw=true"
           alt="Try again later!"
           class="player__play"
         />
@@ -51,14 +56,14 @@
           sound and lighting equipment
         </p>
 
-        <p class="paragraph">
+        <p class="paragraph paragraph-1">
           Our students take first place in tournaments and performances. They
           have the opportunity to travel around the world and play in
           performances on the big stage.
         </p>
 
         <img
-          src="./public/images/about-us/about-us.png"
+          src="https://github.com/katas8n/ballet-school/blob/master/public/images/about-us/about-us.png?raw=true"
           alt="Something went wrong!"
           class="image"
         />
@@ -68,6 +73,8 @@
         <div class="title">Directions</div>
 
         <div class="direction">
+          <div class="direction__flex">
+            <div class="direction__flex-1">
           <div class="title sub-title mt-20">Classical ballet</div>
 
           <p class="paragraph direction__paragraph">
@@ -76,16 +83,21 @@
             more
             <span class="more"> more </span>
           </p>
-
+          </div>
+            <div class="direction__flex-2">
           <img
-            src="./public/images/directions/classical-ballet.png"
+            src="https://github.com/katas8n/ballet-school/blob/master/public/images/directions/classical-ballet.png?raw=true"
             alt=""
-            class="image"
+            class="image image-1"
           />
+              </div>
+            </div>
         </div>
 
         <div class="direction">
-          <div class="title sub-title">Ballet duet</div>
+          <div class="direction__flex">
+            <div class="direction__flex-1">
+          <div class="title sub-title mt-20">Ballet duet</div>
 
           <p class="paragraph direction__paragraph">
             In ballet, a pas de deux [pɑ d(ə) dø] (French, literally "step of
@@ -93,16 +105,20 @@
             female, perform ballet steps together....
             <span class="more"> more </span>
           </p>
-
+            </div>
+            <div class="direction__flex-2">
           <img
-            src="./public/images/directions/ballet-duet.png"
+            src="https://github.com/katas8n/ballet-school/blob/master/public/images/directions/ballet-duet.png?raw=true"
             alt=""
-            class="image"
+            class="image image-1"
           />
+            </div>
         </div>
 
         <div class="direction">
-          <div class="title sub-title">Classical ballet</div>
+          <div class="direction__flex">
+            <div class="direction__flex-1">
+          <div class="title sub-title mt-20">Classical ballet</div>
 
           <p class="paragraph direction__paragraph">
             Classical ballet, also called romantic ballet, system of dance based
@@ -110,14 +126,17 @@
             more
             <span class="more"> more </span>
           </p>
-
+            </div>
+            <div class="direction__flex-2">
           <img
-            src="./public/images/directions/classical-ballet.png"
+            src="https://github.com/katas8n/ballet-school/blob/master/public/images/directions/classical-ballet.png?raw=true"
             alt=""
-            class="image"
+            class="image image-1"
           />
+              </div>
+          </div>
         </div>
-      </section>
+        </section>
     </div>
   </body>
 </html>
